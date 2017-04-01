@@ -1,0 +1,78 @@
+.register2 {
+    width:1200px;
+    margin: 0 auto;
+    border: 1px solid #dddddd;
+}
+.loginHeader {
+    width: 1200px;
+    border: 1px solid #dddddd;
+    height:44px;
+    background-color: #e2e2e2;
+}
+.loginHeader span {
+    display: block;
+    line-height: 44px;
+    height: 44px;
+    float: left;
+    text-align: center;
+    width: 117px;
+    background: #b11f2e;
+    color: #ffffff;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    cursor: pointer;
+}
+.formHeader {
+    border-bottom: 1px solid #ddd;
+    margin-top: 20px;
+    padding: 0px 29px;
+    width: 1200px;
+    height: 40px;;
+}
+.infoFillIn {
+    margin-left: 120px;
+    height: 400px;
+}
+.infoFillIn input:hover {
+    background: none;
+}
+.infoFillIn input {
+    width: 250px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 10px;
+    text-indent: 10px;
+    font-size: 14px;
+    color: #999999;
+    outline: none;
+    border: none;
+    border: 1px solid #999999;
+}
+.passwordText,.emailText {
+    margin-left: 16px;
+}
+.infoFillIn p {
+    color: #333;
+}
+.infoFillIn button {
+    width: 125px;
+    height: 35px;
+    cursor: pointer;
+    display: block;
+    background-color: #9C0A1C;
+    color: #fff;
+    border: none;
+    margin-left: 64px;
+    margin-top: 60px;
+}
+.foot {
+    width:100%;
+    background: #9d1727;
+    height:65px;
+    text-align: center;
+    line-height: 65px;
+    text-align: center;
+    color: #fff;
+    font-family: Arial;
+    font-size: 12px;
+}

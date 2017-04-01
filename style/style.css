@@ -1,0 +1,442 @@
+body {
+    width:100%;
+    font-family: Microsoft YaHei;
+    /*height: 2000px;*/
+    padding: 0px;
+    margin: 0px;
+}
+ul li{
+    margin: 0px;
+    padding:0;
+}
+ol {
+    padding:0;
+    margin: 0;
+}
+li {
+    list-style-type: none;
+}
+body a {
+    text-decoration: none;
+}
+
+/*最顶层*/
+.topBg {
+    width:100%;
+    height: 29px;
+    font-size: 12px;
+    background-color: #333333;
+    color: #fff;
+}
+.topBg a {
+    /*text-decoration: none;*/
+    color: #fff;
+    display: inline-block;
+    width: 60px;
+    height: 29px;
+    line-height: 29px;
+    text-align: center;
+}
+.topBg a:hover {
+    background-color: #9D1727;
+    text-decoration: none;
+}
+.logIn {
+    margin-left: 790px;
+}
+.topBg span {
+    display: block;
+    width: 160px;
+    float: left;
+    height: 29px;
+    margin-left: 82px;
+    line-height: 29px;
+}
+.topBg strong {
+    /*display: inline-block;*/
+    width: 110px;
+    line-height: 29px;
+    float: right;
+    margin-right: 140px;
+}
+.quit {
+    position: absolute;
+    left: 1110px;
+    cursor: pointer;
+    display: none;
+}
+/*logo层*/
+.headerNav {
+    width:100%;
+}
+.logoDiv{
+    width:100%;
+    height: 106px;
+    /*background-color: #F6F6F6;*/
+}
+.logoDivCenter {
+    width: 1200px;
+    height: 106px;
+    margin: 0 auto;
+}
+.logoLink {
+    width: 207px;
+    height: 106px;
+    float: left;
+}
+.logoLink img {
+    margin-left: -36px;
+}
+.search {
+    float: left;
+}
+.search input {
+    display: inline-block;
+    width:340px;
+    height:36px;
+    margin-top: 36px;
+    margin-left: 180px;
+    font-size: 12px;
+    padding: 5px;
+}
+.search button {
+    width: 62px;
+    height:38px;
+    background-color: #595959;
+    color: #fff;
+    margin-left: -5px;
+}
+
+/*购物车*/
+.char {
+    float: left;
+    width:147px;
+    height:39px;
+    margin-left: 135px;
+    margin-top: 36px;
+}
+.char b {
+    display: inline-block;
+    width: 42px;
+    height: 36px;
+    font-size: 18px;
+    color: #fff;
+    background: #6F6F6F;
+    margin-top: 3px;
+    float: right;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    line-height: 36px;
+    text-align: center;
+}
+
+/*nav*/
+.navDiv {
+    width:100%;
+    height: 43px;
+    background-color: #A93947;
+}
+.navDiv ul {
+    width: 1200px;
+    height: 43px;
+    margin: 0 auto;
+}
+.navDiv li {
+    float: left;
+    /*padding: 10px 38px;*/
+    height: 40px;
+    margin-top: 3px;
+}
+.navDiv li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 38px;
+    height: 100%;
+    line-height: 40px;
+
+}
+.navDiv li:hover {
+    background-color: #fff;
+    color: #A93947;
+}
+.navDiv li a:hover {
+    color: #A93947;
+}
+
+/*主体部分*/
+.main {
+    width: 1200px;
+    margin: 20px  auto 0;
+}
+.bookclassify {
+    width: 210px;
+    float: left;
+    border: 1px solid #AF1727;
+}
+.bookclassify h2 {
+    margin-top: 0px;
+    height: 36px;
+    line-height: 36px;
+    overflow: hidden;
+    background: #9d1727;
+    color: #FFF;
+    text-indent: 10px;
+    font-family: 微软雅黑;
+    font-size: 16px;
+}
+.classWarp {
+    width: 210px;
+    padding: 0px 11px;
+    /*border-bottom: 1px dashed #9d1727;*/
+}
+.cateList {
+    width: 190px;
+    margin: 0px auto;
+    border-bottom: 1px dashed #9d1727;
+    /*padding: 9px 0;*/
+    line-height: 24px;
+}
+.cateList:last-child {
+    border-bottom: none;
+}
+.cateListLittle dt {
+    color: #9d1727;
+    font-size: 16px;
+    font-family: 微软雅黑;
+    line-height: 32px;
+}
+.cateListLittle a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #666666;
+    line-height: 20px;;
+}
+.cateListLittle a:hover {
+    color: #be4630;
+}
+
+/*轮播图区域*/
+.bookRecom {
+    float: left;
+}
+.aCarousel {
+    float: left;
+    width: 728px;
+    margin-left: 20px;
+}
+.carousel-inner {
+    width: 728px;
+}
+
+/*新书推荐*/
+.newBookRecom {
+    margin-left: 20px;
+    width: 728px;
+    border: 1px solid #DDDDDD;
+}
+.newBookRecom .newBook {
+    margin-left: -1px;
+    margin-top: 20px;
+    height: 37px;
+    line-height: 37px;
+    text-align: center;
+    width: 728px;
+    float: left;
+    cursor: default;
+    font-size: 15px;
+    display: block;
+    font-family: 微软雅黑;
+    background: #a01e2e;
+    color: #fff;
+}
+.boxNewBook {
+    width: 216px;
+    height: 214px;
+    float: left;
+    margin: 4px 0px 0 15px
+}
+.boxNewBook dt {
+    width: 98px;
+    float: left;
+    height: 120px;
+    overflow: hidden;
+}
+.boxNewBook dl {
+    height: 120px;
+}
+.boxNewBook dd {
+    margin-left: 4px;
+}
+.boxNewBook dt img {
+    width: 86px;
+    height: 86px;
+}
+.boxNewBook h4 {
+    height:48px;
+}
+.boxNewBook h4 span {
+    cursor: pointer;
+    color: #666;
+    font-size: 13px;
+    line-height: 14px;
+}
+.boxNewBook p {
+    line-height: 24px;
+    margin-left: 4px;
+}
+.boxNewBook p strong {
+    font-size: 16px;
+    font-family: 微软雅黑;
+    font-weight: bold;
+    color: #9d1727;
+}
+
+.buyNow {
+    width: 102px !important;
+    height: 34px !important;
+    padding: 0px 0 0 60px !important;
+
+}
+.buyNow a {
+    display: block !important;
+    width: 100px !important;
+    height: 40px !important;
+    line-height: 30px !important;
+    background-color: #9D1624 !important;
+    text-align: center !important;
+    color: #fff !important;
+    text-decoration: none !important;
+    letter-spacing: 2px !important;
+    font-size: 14px !important;
+    border-radius: 5px !important;
+    /*background: url(images/buy.jpg) no-repeat center center;*/
+    border: none !important;
+}
+.buyNow a:hover {
+    /*width: 80px;*/
+    /*height: 28px;*/
+    /*line-height: 28px;*/
+    /*background-color: #010101;*/
+}
+
+/*销量排行*/
+.recommendBookWrap {
+    float: left;
+}
+
+.bookRankingList {
+    width: 210px;
+    float: left;
+    margin-top: -20px;
+    margin-left: 20px;
+}
+.bookRankingList h2 {
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 微软雅黑;
+    color: #fff;
+    background: #ba1a2d;
+}
+.bookRankingList .ranking {
+    height: 42px;
+    width: 228px;
+    line-height: 42px;
+    border-bottom: 1px dashed #ddd;
+    cursor: pointer;
+}
+.bookRankingList .ranking span {
+    display: inline-block;
+    line-height: 30px;
+    padding: 0px 8px;
+    background: #ddd;
+    color: #fff;
+}
+.bookRankingList li p {
+    /*float: left;*/
+    display: inline-block;
+}
+/*.rankingImg {*/
+    /*display: block;*/
+    /*height:66px;*/
+/*}*/
+/*.rankingImg img {*/
+    /*width: 62px;*/
+/*}*/
+
+/*书籍推荐*/
+.mainBottom {
+    width: 1200px;
+    margin: 0px auto;
+}
+.floor {
+    float: left;
+    width:100%;
+}
+.floorMark span:first-child {
+    width: 43px;
+    height: 43px;
+    background: #424242;
+    ont-size: 22px;
+    font-family: 微软雅黑;
+    font-weight: bold;
+    line-height: 43px;
+    float: left;
+    text-align: center;
+    color: #fff;
+}
+.floorMark span:last-child:not(:nth-child(0)) {
+    height: 43px;
+    background: #bc1831;
+    font-size: 16px;
+    font-family: 微软雅黑;
+    color: #fff;
+    display: block;
+    width: 160px;
+    line-height: 43px;
+    text-align: center;
+    text-indent: 10px;
+    margin-top: 470px;
+}
+.recommendBook {
+    float: left;
+    width: 200px;
+    height: 232px;
+    border: 1px solid #ddd;
+}
+.recommendBook dl {
+    margin-top: 30px;
+}
+.recommendBook img {
+    width: 86px;
+    display: block;
+    margin: 0 auto;
+}
+.recommendBook span {
+    display: block;
+    line-height: 24px;
+    font-size: 13px;
+    font-family: 微软雅黑;
+    height: 48px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.recommendBook .buyNow {
+    margin-top: 90px;
+}
+.recommendBook dt {
+    float: left;
+}
+.recommendBook strong {
+    font-size: 16px;
+    font-family: 微软雅黑;
+    font-weight: bold;
+    color: #9d1727;
+}
+.iconfont {
+    color: #000;
+}
+#one {
+    margin-top: 00px;
+}

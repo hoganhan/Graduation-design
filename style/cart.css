@@ -1,0 +1,133 @@
+.wrap {
+  width: 1200px;
+  margin: 0 auto;
+}
+.wrapHeader {
+  width: 1200px;
+  height: 38px;
+  line-height: 38px;
+  border-bottom: 1px solid #9d1727;
+  margin-bottom: 1px;
+  color: #767676;
+  background: #e5e5e5;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.wrapHeader p {
+  color: #a93947;
+  font-size: 18px;
+  font-family: 微软雅黑;
+}
+.cartTable {
+  width: 1200px;
+  border-collapse: collapse; padding: 0;
+  margin: 10px auto;
+}
+.tableHeader tr {
+  background: #ededed;
+}
+.tableHeader th {
+  border-bottom: solid 1px #dcdcdc;
+  padding: 8px;
+  background: url(images/cart_th.jpg) repeat-x;
+  text-align: center;
+  border-right: 1px solid #fff;
+  color: #333;
+  font-size: 12px;
+  font-family: 宋体;
+}
+tbody tr {
+  background: #ededed;
+}
+tbody td {
+  border-right: 1px solid #fff;
+}
+.unitPrice {
+  font-size: 18px;
+  font-family: 微软雅黑;
+  height: 112px;
+  text-align: center;
+  width: 166px;
+}
+tbody .theBook img {
+  width: 102px;
+  height: 102px;
+}
+.theBook {
+  padding: 8px;
+}
+.theBook a {
+  text-decoration: none;
+  margin-left: -139px;
+  width: 401px;
+  text-align: left;
+  float: right;
+  color: #333;
+  font-size: 12px;
+  font-family: 宋体;
+}
+.piece {
+  display: inline-block;
+  border: 1px solid #ab3d4b;
+  height: 24px;
+  width: 54px;
+  text-align: center;
+  line-height: 20px;
+}
+.adjustment {
+  width: 184px;
+  text-align: center;
+}
+.adjustment img {
+  float: left;
+  cursor: pointer;
+}
+.adjustment img:first-child {
+  margin-left: 42px;
+}
+.adjustment input {
+  float: left;
+}
+.totalPrices {
+  width: 180px;
+  color: #a93947;
+  font-size: 20px;
+  font-family: 微软雅黑;
+  text-align: center;
+}
+.operation {
+  width: 130px;
+  text-align: center;
+}
+.operation a {
+  cursor: pointer;
+  color: #666;
+  text-decoration: none;
+  font-size: 13px;
+}
+.operation a:hover {
+  color: #ab3d4b;
+}
+.closeAnAccount {
+  width: 1200px;
+  height: 63px;
+  background-color: #7C7C7C;
+  border: 1px solid #DDDDDD;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+.closeAnAccount .total {
+  margin-left: 666px;
+  height: 62px;
+  line-height: 62px;
+}
+.closeAnAccount strong {
+  font-size: 24px;
+  font-family: 微软雅黑;
+  margin-left: 22px;
+}
+.closeAnAccount img {
+  margin-left: 40px;
+}

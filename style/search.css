@@ -1,0 +1,59 @@
+.classWarp {
+  width: 190px;
+}
+.classWarp dd{
+  margin-left: 0px;
+}
+.searchResult {
+  width: 974px;
+  float: left;
+}
+.searchHeader {
+  width: 974px;
+  background-color: #F7F7F7;
+  height: 43px;
+  line-height: 43px;
+  margin-top: -15px;
+  margin-left: 20px;
+}
+.searchHeader p {
+  width: 170px;
+  height: 43px;
+  background-color: #C71831;
+  text-align: center;
+  color: #fff;
+}
+.searchResult dl {
+  width: 232px;
+  height: 368px;
+  border: 1px solid #ddd;
+  float: left;
+  margin: 0 8px 10px 20px;
+}
+.searchResult img {
+  width: 232px;
+  height: 218px;
+  display: block;
+}
+
+.buyNow {
+  float: left;
+  margin-top: 297px;
+  margin-left: -182px;
+}
+.buyNow a {
+  //line-height: 0 !important;
+}
+
+.searchResult dd strong {
+  margin-top: 72px;
+  display: inline-block;
+  color: #9d1727;
+
+}
+.searchResult dd span {
+  color: #666;
+  font-size: 14px;
+  font-family: Î¢ÈíÑÅºÚ;
+  line-height: 22px;
+}

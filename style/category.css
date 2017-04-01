@@ -1,0 +1,80 @@
+
+#contentCate {
+    width:100%;
+}
+
+/*图书分类*/
+.classWarp {
+    margin-left: -9px;
+}
+.cateList dd {
+    margin-left: 0px;
+}
+
+/*右侧图书*/
+.rightBox {
+    width: 968px;
+    float: left;
+    margin-left: 20px;
+}
+.rightHeader {
+    width: 959px;
+    height: 43px;
+    border-bottom: 1px solid #BE1C35;
+    margin-top: -16px;
+    background-color: #F7F7F7;
+}
+.rightMain {
+    margin-top: 20px;
+}
+.rightHeader p{
+    width: 74px;
+    height:43px;
+    background: #BC1831;
+    color: #FFFFFF;
+    line-height: 43px;
+    text-align: center;
+}
+
+.rightMain dl {
+    float: left;
+    width: 232px;
+    height: 368px;
+    border: 1px solid #ddd;
+    margin: 0 8px 10px 0;
+}
+.rightMain dl:hover {
+    border: 1px solid #be4630;
+}
+.rightMain dl img {
+    width: 232px;
+    height: 218px;
+    display: block;
+}
+.rightMain dl h4 {
+    margin-left: -36px;
+}
+.rightMain dl h4 a{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 微软雅黑;
+    line-height: 22px;
+    height: 44px;
+    overflow: hidden;
+    margin: 0px 5px;
+    color: #666;
+    cursor: pointer;;
+}
+.rightMain dl h4 a:hover {
+    color: #be4630;
+}
+.CateBookInfo {
+    margin-top: 68px;
+}
+.CateBookInfo strong {
+    float: left;
+    display: inline-block;
+    margin-left: -32px;
+    margin-top: 6px;
+    color: #ab3d4b;
+}

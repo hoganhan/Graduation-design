@@ -1,0 +1,1753 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>网上书店</title>
+    <meta name="description" content="Creative Button Styles  - Modern and subtle styles &amp; effects for buttons" />
+    <meta name="keywords" content="button styles, css3, modern, flat button, subtle, effects, hover, web design" />
+    <link rel="stylesheet" href="style/bootstrap.min.css" />
+    <link rel="stylesheet" href="style/animate.css" />
+    <link rel="stylesheet" href="style/hover/component.css" />
+    <link rel="stylesheet" href="style/shoppingCart/reset.css" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/shoppingCart/style.css" />
+    <script type="text/javascript" src="script/jquery2.0.0.min.js"></script>
+    <script type="text/javascript" src="script/bootstrap.min.js"></script>
+    <script type="text/javascript" src="script/notify/bootstrap-notify.min.js"></script>
+    <script type="text/javascript" src="script/hover/modernizr.custom.js"></script>
+    <script type="text/javascript" src="script/shoppingCart/main.js"></script>
+    <script type="text/javascript" src="script/index.js"></script>
+    <script type="text/javascript" src="script/register.js"></script>
+    <script type="text/javascript" src=	"script/login.js"></script>
+</head>
+<body>
+<div class="content">
+    <div class="header">
+        <div class="topBg">
+            <span>欢迎光临网上书城!</span>
+            <a href="login.html" class="logIn">请登录</a>
+            <a href="register.html" class="register">免费注册</a>
+            <strong style="display: none"></strong>
+            <span class="quit">退出</span>
+        </div>
+        <div class="headerNav">
+            <div class="logoDiv">
+                <div class="logoDivCenter">
+                    <a href="#" class="logoLink"><img src="images/logo.png" alt="网上书城"/></a>
+                    <div class="search">
+                        <input type="text" class="searchBox" placeholder="未来简史" />
+                        <button type="button" class="searchBtn">搜索</button>
+                    </div>
+                </div>
+            </div>
+            <div class="navDiv">
+                <ul>
+                    <li><a href="#" class="index">首页</a></li>
+                    <li><a href="#">文学频道</a></li>
+                    <li><a href="#">社科频道</a></li>
+                    <li><a href="#">少儿频道</a></li>
+                    <li><a href="#">电子书</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="mainTop">
+            <div class="mianWarp">
+                <div class="bookclassify">
+                    <div class="category">
+                        <h2>图书分类</h2>
+                        <div class="classWarp">
+                            <div class="cateList">
+                                <dl class="cateListLittle">
+                                    <dt>人文社科</dt>
+                                    <dd>
+                                        <a href="#">哲学、宗教</a>
+                                        <span>|</span>
+                                        <a href="#">社科总论</a>
+                                        <span>|</span>
+                                        <a href="#">政治、军事</a>
+                                        <span>|</span>
+                                        <a href="#">中国文化</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="cateList">
+                                <dl class="cateListLittle">
+                                    <dt>经济、管理、法律</dt>
+                                    <dd>
+                                        <a href="#">经济</a>
+                                        <span>|</span>
+                                        <a href="#">管理</a>
+                                        <span>|</span>
+                                        <a href="#">法律</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="cateList">
+                                <dl class="cateListLittle">
+                                    <dt>文化教育</dt>
+                                    <dd>
+                                        <a href="#">文化、科学、教育</a>
+                                        <span>|</span>
+                                        <a href="#">小学教辅</a>
+                                        <span>|</span>
+                                        <a href="#">初中教辅</a>
+                                        <span>|</span>
+                                        <a href="#">高中教辅</a>
+                                        <span>|</span>
+                                        <a href="#">成教、职教、高教</a>
+                                        <span>|</span>
+                                        <a href="#">语言、文字、外语</a>
+                                        <span>|</span>
+                                        <a href="#">体育</a>
+                                        <span>|</span>
+                                        <a href="#">历史、地理</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="cateList">
+                                <dl class="cateListLittle">
+                                    <dt>文学</dt>
+                                    <dd>
+                                        <a href="#">文学理论</a>
+                                        <span>|</span>
+                                        <a href="#">世界文学</a>
+                                        <span>|</span>
+                                        <a href="#">中国文学</a>
+                                        <span>|</span>
+                                        <a href="#">各国文学</a>
+                                        <span>|</span>
+                                        <a href="#">诗歌</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="cateList">
+                                <dl class="cateListLittle">
+                                    <dt>艺术</dt>
+                                    <dd>
+                                        <a href="#">艺术理论</a>
+                                        <span>|</span>
+                                        <a href="#">世界各国艺术概览</a>
+                                        <span>|</span>
+                                        <a href="#">绘画</a>
+                                        <span>|</span>
+                                        <a href="#">雕塑</a>
+                                        <span>|</span>
+                                        <a href="#">摄影技术</a>
+                                        <span>|</span>
+                                        <a href="#">工艺美术</a>
+                                        <span>|</span>
+                                        <a href="#">音乐</a>
+                                        <span>|</span>
+                                        <a href="#">舞蹈</a>
+                                        <span>|</span>
+                                        <a href="#">戏剧艺术</a>
+                                        <span>|</span>
+                                        <a href="#">电影、电视艺术</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="cateList">
+                                <dl class="cateListLittle">
+                                    <dt>少儿读物</dt>
+                                    <dd>
+                                        <a href="#">低幼启蒙</a>
+                                        <span>|</span>
+                                        <a href="#">儿童文学</a>
+                                        <span>|</span>
+                                        <a href="#">少儿卡通</a>
+                                        <span>|</span>
+                                        <a href="#">少儿艺术</a>
+                                        <span>|</span>
+                                        <a href="#">少儿科普</a>
+                                        <span>|</span>
+                                        <a href="#">挂图卡片</a>
+                                        <span>|</span>
+                                        <a href="#">少儿英语</a>
+                                        <span>|</span>
+                                        <a href="#">幼儿园用书</a>
+                                        <span>|</span>
+                                        <a href="#">其他</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="cateList">
+                                <dl class="cateListLittle">
+                                    <dt>科学技术</dt>
+                                    <dd>
+                                        <a href="#">自然科学</a>
+                                        <span>|</span>
+                                        <a href="#">数理化科学</a>
+                                        <span>|</span>
+                                        <a href="#">天文地球科</a>
+                                        <span>|</span>
+                                        <a href="#">生物科学</a>
+                                        <span>|</span>
+                                        <a href="#">工业技术</a>
+                                        <span>|</span>
+                                        <a href="#">医药卫生</a>
+                                        <span>|</span>
+                                        <a href="#">农业技术</a>
+                                        <span>|</span>
+                                        <a href="#">电工无线电</a>
+                                        <span>|</span>
+                                        <a href="#">自动化计算机</a>
+                                        <span>|</span>
+                                        <a href="#">建筑科学</a>
+                                        <span>|</span>
+                                        <a href="#">交通运输</a>
+                                        <span>|</span>
+                                        <a href="#">航天、航空</a>
+                                        <span>|</span>
+                                        <a href="#">交通安全科</a>
+                                        <span>|</span>
+                                        <a href="#">标准</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="cateList">
+                                <dl class="cateListLittle">
+                                    <dt>综合性图书</dt>
+                                    <dd>
+                                        <a href="#">丛书</a>
+                                        <span>|</span>
+                                        <a href="#">百科全书、类书</a>
+                                        <span>|</span>
+                                        <a href="#">词典</a>
+                                        <span>|</span>
+                                        <a href="#">论文集、选集、全集</a>
+                                        <span>|</span>
+                                        <a href="#">年鉴、年刊</a>
+                                        <span>|</span>
+                                        <a href="#">期刊、连续性出版物</a>
+                                        <span>|</span>
+                                        <a href="#">图书、目录、文摘、索引</a>
+                                        <span>|</span>
+                                        <a href="#">期刊报纸</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="cateList">
+                                <dl class="cateListLittle">
+                                    <dt>学习考试</dt>
+                                    <dd>
+                                        <a href="#">外语学习考试</a>
+                                        <span>|</span>
+                                        <a href="#">公务员考试</a>
+                                        <span>|</span>
+                                        <a href="#">建筑考试</a>
+                                        <span>|</span>
+                                        <a href="#">医学类考试</a>
+                                        <span>|</span>
+                                        <a href="#">其他专业考试</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bookRecom">
+                    <!--轮播图-->
+                    <div class="aCarousel">
+                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                            </ol>
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner" role="listbox">
+                                <div class="item active">
+                                    <a href="#"><img src="images/ShufflingFigure/1.jpg" /></a>
+                                </div>
+                                <div class="item">
+                                    <a href="#"><img src="images/ShufflingFigure/2.jpg" /></a>
+                                </div>
+                                <div class="item">
+                                    <a href="#"><img src="images/ShufflingFigure/3.jpg" /></a>
+                                </div>
+                                <div class="item">
+                                    <a href="#"><img src="images/ShufflingFigure/4.jpg" /></a>
+                                </div>
+                                <div class="item">
+                                    <a href="#"><img src="images/ShufflingFigure/5.jpg" /></a>
+                                </div>
+                            </div>
+                            <!-- Controls -->
+                            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!--新书推荐-->
+                    <div class="newBookRecom">
+                        <strong class="newBook">新书推荐</strong>
+                        <div class="boxNewBook">
+                            <dl>
+                                <dt><a href="register.html"><img src="images/book/1.jpg" alt="学哲学，用哲学" /></a></dt>
+                                <dd>
+                                    <h4><span>学哲学.用哲学/上下</span></h4>
+                                    <p></p>
+                                    <p>
+                                        <strong>￥55.20元</strong>
+                                    </p>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart" data-price="55.20">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="boxNewBook">
+                            <dl>
+                                <dt><a href="#"><img src="images/book/2.jpg" alt="生态正义" /></a></dt>
+                                <dd>
+                                    <h4><span>生态正义.基于马克思恩格斯生态思想的研究</span></h4>
+                                    <p></p>
+                                    <p>
+                                        <strong>￥33.80元</strong>
+                                    </p>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart" data-price="33.80">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="boxNewBook">
+                            <dl>
+                                <dt><a href="#"><img src="images/book/3.jpg" alt="欧洲哲学史研究" /></a></dt>
+                                <dd>
+                                    <h4><span>欧洲哲学史研究</span></h4>
+                                    <p></p>
+                                    <p>
+                                        <strong>￥37.50元</strong>
+                                    </p>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart" data-price="37.50">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="boxNewBook">
+                            <dl>
+                                <dt><a href="#"><img src="images/book/4.jpg" alt="好好学习" /></a></dt>
+                                <dd>
+                                    <h4><span>好好学习:个人知识管理精进指南</span></h4>
+                                    <p></p>
+                                    <p>
+                                        <strong>￥31.50元</strong>
+                                    </p>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart" data-price="31.50">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="boxNewBook">
+                            <dl>
+                                <dt><a href="#"><img src="images/book/5.jpg" alt="人是一根会思考的芦苇" /></a></dt>
+                                <dd>
+                                    <h4><span>人是一根会思考的芦苇</span></h4>
+                                    <p></p>
+                                    <p>
+                                        <strong>￥34.50元</strong>
+                                    </p>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart" data-price="34.50">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="boxNewBook">
+                            <dl>
+                                <dt><a href="#"><img src="images/book/6.jpg" alt="自性自见" /></a></dt>
+                                <dd>
+                                    <h4><span>自性自见</span></h4>
+                                    <p></p>
+                                    <p>
+                                        <strong>￥32.10元</strong>
+                                    </p>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart" data-price="32.10">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="boxNewBook">
+                            <dl>
+                                <dt><a href="#"><img src="images/book/7.jpg" alt="菩萨行处" /></a></dt>
+                                <dd>
+                                    <h4><span>菩萨行处</span></h4>
+                                    <p></p>
+                                    <p>
+                                        <strong>￥32.10元</strong>
+                                    </p>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart" data-price="32.10">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="boxNewBook">
+                            <dl>
+                                <dt><a href="#"><img src="images/book/8.jpg" alt="开悟之旅" /></a></dt>
+                                <dd>
+                                    <h4><span>开悟之旅</span></h4>
+                                    <p></p>
+                                    <p>
+                                        <strong>￥32.10元</strong>
+                                    </p>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart" data-price="32.10">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="boxNewBook">
+                            <dl>
+                                <dt><a href="#"><img src="images/book/9.jpg" alt="中国哲学史大观" /></a></dt>
+                                <dd>
+                                    <h4><span>中国哲学史大观</span></h4>
+                                    <p></p>
+                                    <p>
+                                        <strong>￥20.90元</strong>
+                                    </p>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart" data-price="20.90">加入购物车</a>
+                            </div>
+                        </div>
+                        <span class="clearfix"></span>
+                    </div>
+                </div>
+                <div class="bookRankingList">
+                    <div class="consider">
+                        <h2>热卖排行</h2>
+                        <div class="considerLisst">
+                            <ol>
+                                <li class="ranking">
+                                    <span>1</span>
+                                    <p>当孔子遇上哈佛</p>
+                                </li>
+                                <li class="ranking">
+                                    <span>2</span>
+                                    <p>中国美学</p>
+                                </li>
+                                </li>
+                                <li class="ranking">
+                                    <span>3</span>
+                                    <p>哲学的安慰</p>
+                                </li>
+                                <li class="ranking">
+                                    <span>4</span>
+                                    <p>三维看世界</p>
+                                </li>
+                                <li class="ranking">
+                                    <span>5</span>
+                                    <p>中国哲学之精神</p>
+                                </li>
+                                <li class="ranking">
+                                    <span>6</span>
+                                    <p>摩西与一神教</p>
+                                </li>
+                                <li class="ranking">
+                                    <span>7</span>
+                                    <p>资本主义浩劫时聆听马克思</p>
+                                </li>
+                                <li class="ranking">
+                                    <span>8</span>
+                                    <p>自性自见</p>
+                                </li>
+                                <li class="ranking">
+                                    <span>9</span>
+                                    <p>欧洲哲学史研究</p>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="cd-cart-container empty">
+                <a href="#0" class="cd-cart-trigger">
+                    购物车
+                    <ul class="count"> <!-- cart items count -->
+                        <li>0</li>
+                        <li>0</li>
+                    </ul> <!-- .count -->
+                </a>
+
+                <div class="cd-cart">
+                    <div class="wrapper">
+                        <header>
+                            <h2>购物车</h2>
+                            <span class="undo">已删除 <a href="#0">撤销</a></span>
+                        </header>
+
+                        <div class="body">
+                            <ul>
+                                <!-- products added to the cart will be inserted here using JavaScript -->
+                            </ul>
+                        </div>
+
+                        <footer>
+                            <a href="cart.html" class="checkout btn"><em>去结算<span>0</span></em></a>
+                        </footer>
+                    </div>
+                </div> <!-- .cd-cart -->
+            </div> <!-- cd-cart-container -->
+
+
+            <div class="mainBottom">
+                <div class="floor">
+                    <div class="floorMark">
+                        <span>1F</span>
+                        <span id="one">人文社科</span>
+                    </div>
+                    <div class="recommendBookWrap">
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/20.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>中国社会中的宗教.修订版</span>
+                                    <strong>￥51.00元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart" data-price="20.90">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/21.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>廊下派的城邦观</span>
+                                    <strong>￥45.00元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart" data-price="45.00">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/22.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>中国哲学的智慧</span>
+                                    <strong>￥36元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/23.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>智慧与魔咒</span>
+                                    <strong>￥20元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/24.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>道不远人.德在人心</span>
+                                    <strong>￥38.4元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/25.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>民国大师经典系列/谈美书简</span>
+                                    <strong>￥52.1元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/26.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>戴维森意义理论研究</span>
+                                    <strong>￥34.8元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/27.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>中国印度之智慧:中国的智慧</span>
+                                    <strong>￥36.1元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/20.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>中国社会中的宗教</span>
+                                    <strong>￥32.1元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/20.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>中国社会中的宗教</span>
+                                    <strong>￥32.1元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/20.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>中国社会中的宗教</span>
+                                    <strong>￥32.1元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/20.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>中国社会中的宗教</span>
+                                    <strong>￥32.1元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--二楼-->
+                    <div class="floorMark">
+                        <span>2F</span>
+                        <span id="two">文化教育</span>
+                    </div>
+                    <div class="recommendBookWrap">
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/20.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>中国社会中的宗教</span>
+                                    <strong>￥32.1元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/21.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>廊下派的城邦观</span>
+                                    <strong>￥34.81元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/22.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>中国哲学的智慧</span>
+                                    <strong>￥36元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/23.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>智慧与魔咒</span>
+                                    <strong>￥20元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/24.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>道不远人.德在人心</span>
+                                    <strong>￥38.4元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/25.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>民国大师经典系列/谈美书简</span>
+                                    <strong>￥52.1元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/26.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>戴维森意义理论研究</span>
+                                    <strong>￥34.8元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/27.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>中国印度之智慧:中国的智慧</span>
+                                    <strong>￥36.1元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/20.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>中国社会中的宗教</span>
+                                    <strong>￥32.1元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/20.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>中国社会中的宗教</span>
+                                    <strong>￥32.1元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/20.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>中国社会中的宗教</span>
+                                    <strong>￥32.1元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/20.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>中国社会中的宗教</span>
+                                    <strong>￥32.1元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--三楼-->
+                    <div class="floorMark">
+                        <span>3F</span>
+                        <span class="three">文学</span>
+                    </div>
+                    <div class="recommendBookWrap">
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/20.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>中国社会中的宗教</span>
+                                    <strong>￥32.1元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/21.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>廊下派的城邦观</span>
+                                    <strong>￥34.81元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/22.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>中国哲学的智慧</span>
+                                    <strong>￥36元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/23.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>智慧与魔咒</span>
+                                    <strong>￥20元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/24.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>道不远人.德在人心</span>
+                                    <strong>￥38.4元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/25.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>民国大师经典系列/谈美书简</span>
+                                    <strong>￥52.1元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/26.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>戴维森意义理论研究</span>
+                                    <strong>￥34.8元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/27.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>中国印度之智慧:中国的智慧</span>
+                                    <strong>￥36.1元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/20.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>中国社会中的宗教</span>
+                                    <strong>￥32.1元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/20.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>中国社会中的宗教</span>
+                                    <strong>￥32.1元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/20.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>中国社会中的宗教</span>
+                                    <strong>￥32.1元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/20.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>中国社会中的宗教</span>
+                                    <strong>￥32.1元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--四楼-->
+                    <div class="floorMark">
+                        <span>4F</span>
+                        <span class="four">文化教育</span>
+                    </div>
+                    <div class="recommendBookWrap">
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/20.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>中国社会中的宗教</span>
+                                    <strong>￥32.1元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/21.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>廊下派的城邦观</span>
+                                    <strong>￥34.81元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/22.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>中国哲学的智慧</span>
+                                    <strong>￥36元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/23.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>智慧与魔咒</span>
+                                    <strong>￥20元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/24.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>道不远人.德在人心</span>
+                                    <strong>￥38.4元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/25.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>民国大师经典系列/谈美书简</span>
+                                    <strong>￥52.1元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/26.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>戴维森意义理论研究</span>
+                                    <strong>￥34.8元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/27.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>中国印度之智慧:中国的智慧</span>
+                                    <strong>￥36.1元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/20.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>中国社会中的宗教</span>
+                                    <strong>￥32.1元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/20.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>中国社会中的宗教</span>
+                                    <strong>￥32.1元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/20.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>中国社会中的宗教</span>
+                                    <strong>￥32.1元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/20.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>中国社会中的宗教</span>
+                                    <strong>￥32.1元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--五楼-->
+                    <div class="floorMark">
+                        <span>5F</span>
+                        <span class="five">艺术</span>
+                    </div>
+                    <div class="recommendBookWrap">
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/20.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>中国社会中的宗教</span>
+                                    <strong>￥32.1元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/21.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>廊下派的城邦观</span>
+                                    <strong>￥34.81元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/22.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>中国哲学的智慧</span>
+                                    <strong>￥36元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/23.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>智慧与魔咒</span>
+                                    <strong>￥20元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/24.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>道不远人.德在人心</span>
+                                    <strong>￥38.4元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/25.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>民国大师经典系列/谈美书简</span>
+                                    <strong>￥52.1元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/26.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>戴维森意义理论研究</span>
+                                    <strong>￥34.8元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/27.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>中国印度之智慧:中国的智慧</span>
+                                    <strong>￥36.1元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/20.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>中国社会中的宗教</span>
+                                    <strong>￥32.1元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/20.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>中国社会中的宗教</span>
+                                    <strong>￥32.1元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/20.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>中国社会中的宗教</span>
+                                    <strong>￥32.1元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/20.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>中国社会中的宗教</span>
+                                    <strong>￥32.1元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--六楼-->
+                    <div class="floorMark">
+                        <span>6F</span>
+                        <span class="six">科学技术</span>
+                    </div>
+                    <div class="recommendBookWrap">
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/20.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>中国社会中的宗教</span>
+                                    <strong>￥32.1元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/21.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>廊下派的城邦观</span>
+                                    <strong>￥34.81元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/22.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>中国哲学的智慧</span>
+                                    <strong>￥36元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/23.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>智慧与魔咒</span>
+                                    <strong>￥20元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/24.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>道不远人.德在人心</span>
+                                    <strong>￥38.4元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/25.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>民国大师经典系列/谈美书简</span>
+                                    <strong>￥52.1元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/26.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>戴维森意义理论研究</span>
+                                    <strong>￥34.8元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/27.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>中国印度之智慧:中国的智慧</span>
+                                    <strong>￥36.1元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/20.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>中国社会中的宗教</span>
+                                    <strong>￥32.1元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/20.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>中国社会中的宗教</span>
+                                    <strong>￥32.1元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/20.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>中国社会中的宗教</span>
+                                    <strong>￥32.1元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/20.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>中国社会中的宗教</span>
+                                    <strong>￥32.1元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--七楼-->
+                    <div class="floorMark">
+                        <span>7F</span>
+                        <span class="seven">少儿读物</span>
+                    </div>
+                    <div class="recommendBookWrap">
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/20.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>中国社会中的宗教</span>
+                                    <strong>￥32.1元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/21.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>廊下派的城邦观</span>
+                                    <strong>￥34.81元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/22.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>中国哲学的智慧</span>
+                                    <strong>￥36元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/23.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>智慧与魔咒</span>
+                                    <strong>￥20元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/24.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>道不远人.德在人心</span>
+                                    <strong>￥38.4元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/25.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>民国大师经典系列/谈美书简</span>
+                                    <strong>￥52.1元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/26.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>戴维森意义理论研究</span>
+                                    <strong>￥34.8元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/27.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>中国印度之智慧:中国的智慧</span>
+                                    <strong>￥36.1元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/20.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>中国社会中的宗教</span>
+                                    <strong>￥32.1元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/20.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>中国社会中的宗教</span>
+                                    <strong>￥32.1元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/20.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>中国社会中的宗教</span>
+                                    <strong>￥32.1元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                        <div class="recommendBook">
+                            <dl>
+                                <dt>
+                                    <a href="#"><img src="images/book/20.jpg" /></a>
+                                </dt>
+                                <dd>
+                                    <span>中国社会中的宗教</span>
+                                    <strong>￥32.1元</strong>
+                                </dd>
+                            </dl>
+                            <div class="buyNow">
+                                <a href="#" class="btn btn-1 btn-1a cd-add-to-cart">加入购物车</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

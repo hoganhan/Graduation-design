@@ -1,0 +1,70 @@
+.subject {
+    width: 1200px;
+    margin: 20px auto;
+}
+.bookImg {
+    width: 415px;
+    height: 530px;
+    float: left;
+}
+.bigImg {
+    width: 415px;
+    height: 415px;
+    border: 1px solid #9d1727;
+}
+.bookImg .bigImg img{
+    width: 415px;
+    height:415px;
+}
+.smallImg {
+    margin-top: 10px;
+    float: left;
+    width: 378px;
+}
+.bookImg .smallImg img {
+    width: 86px;
+    height:86px;
+    margin-top: -6px;
+}
+.changeImg {
+    margin-top: 10px;
+}
+.prev img{
+    display: block;
+    width: 18px;
+    height: 86px;
+    cursor: pointer;
+    text-indent: -9999px;
+    float: left;
+}
+.next img{
+    display: block;
+    width: 18px;
+    height: 86px;
+    cursor: pointer;
+    text-indent: -9999px;
+    float: left;
+}
+
+#bookRelatedInfo {
+    width: 520px;
+    float: left;
+    margin-left: 20px;
+}
+.bookName {
+    font-size: 18px;
+    font-family: 微软雅黑;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+.bookCost strong {
+    color: #a93947;
+}
+.buyNow {
+    float: left;
+    margin-top: 50px;
+    margin-left: -60px;
+}
+.shoppingCart {
+    /*margin-left: -40px;*/
+}

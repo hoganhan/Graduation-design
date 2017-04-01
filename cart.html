@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="style/bootstrap.min.css" />
+    <link rel="stylesheet" href="style/animate.css" />
+    <link rel="stylesheet" href="style/sweetakert/sweetalert.css" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/cart.css" />
+    <script type="text/javascript" src="script/jquery2.0.0.min.js"></script>
+    <script type="text/javascript" src="script/bootstrap.min.js"></script>
+    <script type="text/javascript" src="script/notify/bootstrap-notify.min.js"></script>
+    <script type="text/javascript" src="script/sweetalert/sweetalert.min.js"></script>
+    <script type="text/javascript" src="script/cart.js"></script>
+</head>
+<body>
+<div class="header">
+    <div class="topBg">
+        <span>欢迎光临网上书城!</span>
+        <a href="login.html" class="logIn">请登录</a>
+        <a href="register.html" class="register">免费注册</a>
+        <strong style="display: none"></strong>
+        <span class="quit">退出</span>
+    </div>
+<div class="wrap">
+
+        <div class="headerNav">
+            <div class="logoDiv">
+                <div class="logoDivCenter">
+                    <a href="index.html" class="logoLink"><img src="images/logo.png" alt="网上书城"/></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapHeader">
+        <p>购物车商品</p>
+    </div>
+    <table class="cartTable">
+        <thead class="tableHeader">
+        <tr>
+            <th>商品信息</th>
+            <th>单价（元）</th>
+            <th>数量</th>
+            <th>总价（元）</th>
+            <th>操作</th>
+        </tr>
+        </thead>
+        <tbody>
+        <!--<tr>-->
+            <!--<td class="theBook">-->
+                <!--<img src="images/1.jpg" />-->
+                <!--<a href="#">这是一条不归路啊</a>-->
+            <!--</td>-->
+            <!--<td class="unitPrice">￥<span>14.40</span>元</td>-->
+            <!--<td class="adjustment">-->
+                <!--<img src="images/minus.jpg" class="minus" /><input type="text" class="piece" value="1" /><img src="images/add.jpg" class="add" />-->
+            <!--</td>-->
+            <!--<td class=" totalPrices">-->
+                <!--<strong>￥<span>14.40</span>元</strong>-->
+            <!--</td>-->
+            <!--<td class="operation">-->
+                <!--<a href="#" class="delCommodity">删除</a>-->
+            <!--</td>-->
+        <!--</tr>-->
+
+        <!--<tr>-->
+            <!--<td class="theBook">-->
+                <!--<img src="images/1.jpg" />-->
+                <!--<a href="#">这是一条不归路啊</a>-->
+            <!--</td>-->
+            <!--<td class="unitPrice">￥<span>14.40元</span></td>-->
+            <!--<td class="adjustment">-->
+                <!--<img src="images/minus.jpg" class="minus" /><input type="text" class="piece" value="1" /><img src="images/add.jpg" class="add" />-->
+            <!--</td>-->
+            <!--<td class=" totalPrices">-->
+                <!--<strong>￥<span>14.40</span>元</strong>-->
+            <!--</td>-->
+            <!--<td class="operation">-->
+                <!--<a href="#" class="delCommodity">删除</a>-->
+            <!--</td>-->
+        <!--</tr>-->
+
+
+        <!--<tr>-->
+            <!--<td class="theBook">-->
+                <!--<img src="images/1.jpg" />-->
+                <!--<a href="#">这是一条不归路啊</a>-->
+            <!--</td>-->
+            <!--<td class="unitPrice">￥<span>14.40元</span></td>-->
+            <!--<td class="adjustment">-->
+                <!--<img src="images/minus.jpg" class="minus" /><input type="text" class="piece" value="1" /><img src="images/add.jpg" class="add" />-->
+            <!--</td>-->
+            <!--<td class=" totalPrices">-->
+                <!--<strong>￥<span>14.40</span>元</strong>-->
+            <!--</td>-->
+            <!--<td class="operation">-->
+                <!--<a href="#" class="delCommodity">删除</a>-->
+            <!--</td>-->
+        <!--</tr>-->
+
+        <!--<tr>-->
+            <!--<td class="theBook">-->
+                <!--<img src="images/1.jpg" />-->
+                <!--<a href="#">这是一条不归路啊</a>-->
+            <!--</td>-->
+            <!--<td class="unitPrice">￥<span>14.40元</span></td>-->
+            <!--<td class="adjustment">-->
+                <!--<img src="images/minus.jpg" class="minus" /><input type="text" class="piece" value="1" /><img src="images/add.jpg" class="add" />-->
+            <!--</td>-->
+            <!--<td class=" totalPrices">-->
+                <!--<strong>￥<span>14.40</span>元</strong>-->
+            <!--</td>-->
+            <!--<td class="operation">-->
+                <!--<a href="#" class="delCommodity">删除</a>-->
+            <!--</td>-->
+        <!--</tr>-->
+
+        <!--<tr>-->
+            <!--<td class="theBook">-->
+                <!--<img src="images/1.jpg" />-->
+                <!--<a href="#">这是一条不归路啊</a>-->
+            <!--</td>-->
+            <!--<td class="unitPrice">￥<span>14.40元</span></td>-->
+            <!--<td class="adjustment">-->
+                <!--<img src="images/minus.jpg" class="minus" /><input type="text" class="piece" value="1" /><img src="images/add.jpg" class="add" />-->
+            <!--</td>-->
+            <!--<td class=" totalPrices">-->
+                <!--<strong>￥<span>14.40</span>元</strong>-->
+            <!--</td>-->
+            <!--<td class="operation">-->
+                <!--<a href="#" class="delCommodity">删除</a>-->
+            <!--</td>-->
+        <!--</tr>-->
+
+        </tbody>
+    </table>
+    <div class="closeAnAccount">
+        <span class="total">合计</span>
+        <strong>￥<span>2222</span>元</strong>
+        <a href="#"><img src="images/checkout.jpg" /></a>
+        <a href="#"><img src="images/continue.jpg" /></a>
+    </div>
+</div>
+</body>
+</html>
